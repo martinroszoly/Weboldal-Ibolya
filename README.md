@@ -20,6 +20,8 @@ npm run preview
 
 A build kimenete a `dist/` mappába kerül.
 
+Fontos: az `index.html` fájlt ne a VS Code Live Serverrel nyisd meg. A `.tsx` forrásfájlokat a Vite fordítja le, ezért a működő fejlesztői cím a `npm run dev` parancs után megjelenő, általában `http://localhost:5173/` cím.
+
 ## Oldalak
 
 - `/` – Főoldal
